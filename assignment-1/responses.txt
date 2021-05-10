@@ -1,5 +1,7 @@
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+1. The internet is a shortened phrase for what it truly does: connect different networks. For example, two of the first networks connected through the internet was a computer at UCLA and a different model of computer at Stanford. The web, on the other hand, did more than just connect networks. It took the information provided by those networks and connected them together through hypertext documents, rather than linear structures of hierarchy.
 
-2. Vestibulum gravida lorem ac auctor eleifend.
+2. The internet functions by connecting servers through wires. These servers can then transmit information to each other through that connection via packets, allowing the other server to receive that information, processing it, and then displaying that information to its user.
 
-3. Ut vitae felis at dolor lobortis placerat.
+3. A directory is, in essence, a digital folder. Directories are used to contain and organize files in a structured format. For example, where there's a root directory, it will have a sub-directory such as "images" which will, in turn, have a sub-directory labeled "logo". In the "logo" sub-directory, there will be an image file containing an image of the designed logo.
+
+4. Using a VCS allows a user to track any changes that they made to a file, revert any changes made if issues arise from those changes, and collaborate projects with other users more easily.
