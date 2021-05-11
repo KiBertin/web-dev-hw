@@ -1,9 +1,13 @@
 Kian Bertin
 
-1. One way that data travels on the internet is through the transmission of bits through light. Bits are the most basic form of data transmission, a binary system that has a trigger for being "on" and a trigger for being "off." The data for these bits can be transmitted through the presence or absence of light within fiber optic cables, which allows the data to move over long distances without degradation.
+1. One way that data travels on the internet is through the transmission of bits through light. Bits are the most basic form of data transmission, a binary system that has a 
+trigger for being "on" and a trigger for being "off." The data for these bits can be transmitted through the presence or absence of light within fiber optic cables, which allows 
+the data to move over long distances without degradation.
 
 2. DNS is the acronym for the "Domain Name System" - it essentially connects associated names for websites to that website's specific IP address.
 
-3. Cookies are bits of information that are attached with the data transmitted when a user accesses a website. The data from that cookie helps the website recall who the user is on subsequent visits.
+3. Cookies are bits of information that are attached with the data transmitted when a user accesses a website. The data from that cookie helps the website recall who the user is 
+on subsequent visits.
 
-4. There are three basic parts of a URL. First is the protocol, which dictates the way the browser communicates with a server. The second part is the domain of the website - for example, google.com. Finally, there is the path of the URL, which navigates through the directory to get to the specific file or page the user is looking for.
+4. There are three basic parts of a URL. First is the protocol, which dictates the way the browser communicates with a server. The second part is the domain of the website - for 
+example, google.com. Finally, there is the path of the URL, which navigates through the directory to get to the specific file or page the user is looking for.
