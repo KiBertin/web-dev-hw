@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Example contact information for RetroFix Games">
+    <meta name="author" content="Kian Bertin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Assignment 06</title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Contact Us</h1>
+      <address>
+        (406)-926-6911<br />
+        1118 W Central Ave<br />
+        Missoula, MT 59801
+      </address>
+      <a href="mailto:contact@retrofixgames.com">contact@retrofixgames.com</a>
+    <br />
+    <br />
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Hours Open</th>
+      </tr>
+      <tr>
+        <th scope="row">Monday</th>
+          <td> 10:00 am - 7:00 pm</td>
+      </tr>
+      <tr>
+        <th scope="row">Tuesday</th>
+          <td> 10:00 am - 7:00 pm</td>
+      </tr>
+      <tr>
+        <th scope="row">Wednesday</th>
+          <td> 10:00 am - 7:00 pm</td>
+      </tr>
+      <tr>
+        <th scope="row">Thursday</th>
+          <td> 10:00 am - 7:00 pm</td>
+      </tr>
+      <tr>
+        <th scope="row">Friday</th>
+          <td> 10:00 am - 7:00 pm</td>
+      </tr>
+      <tr>
+        <th scope="row">Saturday</th>
+          <td> 10:00 am - 7:00 pm</td>
+      </tr>
+      <tr>
+        <th scope="row">Sunday</th>
+          <td> 10:00 am - 7:00 pm</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <form action="https://example.com/contact.php" method="post" id="contact-forms" class="interest-forms">
+      <fieldset>
+        <legend>Contact Us:</legend>
+        <label>Your Email Address:
+          <input type="email" name="email" autofocus />
+        </label>
+        <br />
+        <br />
+        <legend>Game Interest:</legend>
+        <label>
+          <input type="checkbox" name ="game" value="video" /> Video Games
+          <br />
+          <input type="checkbox" name ="game" value="board" /> Board Games
+          <br />
+          <input type="checkbox" name ="game" value="roleplaying" /> Roleplaying Games
+          <br />
+          <input type="checkbox" name ="game" value="card" /> Trading Card Games
+        </label>
+        <br />
+        <p>
+          Comment:
+          <br />
+          <textarea name="comments" id="comment-textarea" placeholder="Enter up to 500 characters..."cols="35" rows="10"></textarea>
+        </p>
+        <input type="image" src="images/submit_button.png" alt="submit button image" style="width: 100px" />
+      </fieldset>
+    </form>
+  </body>
+</html>
