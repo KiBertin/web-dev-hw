@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact information for author of Instructable">
+    <meta name="author" content="Kian Bertin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8 Contact</title>
+    <style>
+      body {
+        background-color: #C09F80;
+        text-align: center;
+      }
+      nav {
+        background-color: #76323F;
+        text-align: center;
+        padding: 5px;
+      }
+      a {
+        background-color: #565656;
+        color: Black;
+        padding: 5px;
+      }
+      .container {
+        background-color: #E7DFDD;
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <a href="./index.html" style="color:white;">Home</a>
+      <a href="./about.html" style="color:white;">About</a>
+      <a href="./contact.html" style="color:white;">Contact</a>
+    </nav>
+    <br />
+    <div id="contact" class="container">
+      <form action="https://example.com/contact.php" method="post" id="contact-forms" class="interest-forms">
+        <fieldset>
+          <legend>Contact Us:</legend>
+          <label>Your Email Address:
+            <input type="email" name="email" autofocus />
+          </label>
+          <br />
+          <br />
+          <legend>Experience with TTRPGs:</legend>
+          <label>
+            <input type="checkbox" name ="experience" value="Novice" /> Novice
+            <br />
+            <input type="checkbox" name ="experience" value="Intermediate" /> Intermediate
+            <br />
+            <input type="checkbox" name ="experience" value="Advanced" /> Advanced
+            <br />
+            <input type="checkbox" name ="experience" value="Expert" /> Expert
+          </label>
+          <br />
+          <p>
+            Comment:
+            <br />
+            <textarea name="comments" id="comment-textarea" placeholder="Enter up to 500 characters..."cols="35" rows="10"></textarea>
+          </p>
+          <input type="image" src="images/submit_button.png" alt="submit button image" style="width: 100px" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
