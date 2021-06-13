@@ -1,0 +1,130 @@
+/* Page-Wide Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0px;
+  background-color: #C0C0C0;
+}
+
+.site-info {
+  float: left;
+  position: relative;
+  margin-top: 0em;
+  margin-left: 10em;
+  padding: 10px;
+  text-align: center;
+  font-size: 200%;
+  background-color: #76323F;
+  color: white;
+  width: 300px;
+}
+
+.logo {
+  background-color: #FFF;
+  width: 150px;
+  height: 150px;
+
+  margin: auto;
+
+  border: 5px solid #FFF;
+  border-radius: 100%;
+
+  line-height: 150px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.site-title a {
+  padding: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #565656;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  padding: 14px;
+  width: 20%;
+  text-decoration: none;
+}
+
+.dropbutton{
+  background-color: #565656;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 20%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #565656;
+  color:white
+  overflow:auto;
+  box-shadow: 0px 8px 16px 0px grey;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 14px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.navbar a:hover {background-color: darkgrey;}
+
+.dropdown-content a:hover {background-color: darkgrey;
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-content {display: inline;}
+
+.dropdown:hover .dropbutton {background-color: darkgrey;}
+
+.container {
+  position: relative;
+  font-size: 20pt;
+}
+
+#title {
+  text-align: center;
+  color: black;
+  margin-top: 100px;
+  padding: 16px;
+  margin-right: 12em;
+}
+
+#content {
+  text-align: left;
+  font-size: 15pt;
+  color: black;
+  padding: 16px;
+  margin-left: 10em;
+  margin-right: 10em;
+}
