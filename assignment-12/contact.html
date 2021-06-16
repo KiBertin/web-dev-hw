@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Website design pitch for personal trainer services/blog">
+    <meta name="author" content="Kian Bertin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="fontsheet" type="font/css" href="./css/fonts.css">
+  </head>
+
+  <body>
+    <!-- links to site pages: -->
+    <div class="navbar">
+      <a href="./index.html">Home</a>
+      <a href="./services.html">Services</a>
+    <!-- dropdown menu for site navigation -->
+      <div class="dropdown">
+          <button class="dropbutton">More</button>
+          <div class="dropdown-content">
+            <a href="./about.html">About Me</a>
+            <a href="./contact.html">Contact</a>
+            <a href="https://shop.bodybuilding.com">Partnered Supplements</a>
+            <a href="https://muscleandstrength.com/workouts/start-from-scratch-beginner-workout">Sample Workout Plan</a>
+            <a href="https://coachmag.co.uk/fitness/5851/20-effective-health-and-fitness-tips">Quick Fitness Tips</a>
+          </div>
+      </div>
+    </div>
+
+    <!--site info-->
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="centered">
+      <div class="site-info">
+        <div class="logo"><a href="./index.html"><img src="./images/logo.png" alt="business logo that looks like a flame"></a></div>
+        <div class="site-title">
+          <a href="./index.html"><b>Core Energy</b></a>
+          <a href="./index.html">Fitness Services</a>
+        </div>
+      </div>
+
+      <div class="container" id="title">
+            <h1>Contact Us</h1>
+      </div>
+
+    <!-- contact form -->
+      <div class="contact-form">
+        <form action="action_page.php">
+          <!-- first name -->
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <!-- last name -->
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <!-- email -->
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+          <!-- fitness goals -->
+          <label for="goals">Goals</label>
+          <select id="goals" name="goals">
+            <option value="lose weight">Lose Weight</option>
+            <option value="recover from injury">Injury Recovery</option>
+            <option value="bodybuilding">Bodybuilding</option>
+          </select>
+          <!-- any extra information the submitter has -->
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <!-- submit -->
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
