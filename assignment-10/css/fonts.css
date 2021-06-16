@@ -9,7 +9,7 @@
 /*font-face for Playfair Display */
 @font-face {
   font-family: 'Playfair Display';
-  src: url('./fonts/PlayfairDisplay-MediumItalic.ttf')
+  src: url('./fonts/PlayfairDisplay-MediumItalic.ttf') format('truetype')
   font-weight:normal;
   font-style:italic;
 }
